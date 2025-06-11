@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 70px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+ 
+}
+
+.nav-logo {
+    height: 70px;
+    width: 90px;
+}
+
+.nav-logo:hover{
+    border:2px solid transparent;
+ }
+.logo {
+    background-image: url("Anexas.png");
+    background-size: cover;
+    height: 70px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+/* box2 */
+
+.add-first {
+    color: #cccc;
+    font-size: 1rem;
+    margin-left: 13px;
+    border: none;
+}
+
+.add-sec {
+    font-size: 1rem;
+    margin-left: 3px;
+    border: none;
+    /* background-color: #0f1111; */
+    color: #f3f3f3;
+}
+.nav-address:hover{
+   border:2px solid white;
+}
+
+.add-icon {
+    display: flex;
+    align-items: centre;
+}
+
+ /* box3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height:40px;
+    border-radius:5px
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.search-input{
+    width:510px;
+    font-size: 1rem;
+    border:none;
+}
+ .search-icon{
+    display: flex;
+    background-color:#febd68;
+   width: 50px;
+   justify-content: center;
+   align-items: center;
+   font-size: 1rem;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+   color: #0f1111;
+ }
+
+ .nav-home-icon{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    font-size: 1.5rem;
+    align-items: center;
+ }
+.nav-product a{
+   color: white;
+}
+.nav-about a{
+   color: white;
+}
+.nav-contact a{
+   color: white;
+}
+ .nav-search:hover{
+    border:2px solid orange;
+ }
+
+ .nav-login a{
+   color:white ;
+    font-size: 1rem;
+ }
+
+ .nav-login:hover{
+    border:2px solid white;
+ }
+ .nav-about:hover{
+    border:2px solid white;
+ }
+
+ .nav-product:hover{
+    border:2px solid white;
+ }
+
+ .nav-contact:hover{
+    border:2px solid white;
+ }
+ .nav-home-icon:hover{
+    border:2px solid white;
+ }
+
+ .hero-section{
+    background-image:url("/hero_image.jpg") ;
+    background-size: cover;
+    height:300px;
+    border-top: 0.5px solid white;
+ }
+ .box{
+    
+    height: 400px;
+    width: 23.5%;
+    background-color: aliceblue;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+ }
+ /* flex wrap for item in a row  */
+ .shop-section{
+    display:flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+ }
+ 
+ .box-image{
+    height:350px;
+    background-size: cover;
+    margin-top:0.5rem ;
+    margin-bottom:0.5rem ;
+ }
+ .box-content{
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+ .box-content p {
+    color:#007185 ;
+ }
+ footer{
+    margin-top: 10px;
+ }
+ .foot-panel1{
+    background-color:#37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+ }
+ 
+ .foot-panel2{
+    display: flex;
+    justify-content: space-evenly;
+   
+    align-items: center;
+    height: 50px;
+    background-color: #222f3d;
+    color: white;
+    font-size: 40px;
+ }
+ .facebook-icon{
+   font-size: 1.5rem;
+   display: flex;
+   height: 40px;
+   justify-content: center;
+   align-items: center;
+ }
+ .facebook-icon:hover{
+    border:2px solid white;
+ }
+ .linkedin-icon:hover{
+    border:2px solid white;
+ }
+ .youtube-icon:hover{
+    border:2px solid white;
+ }
+ .instagram-icon:hover{
+    border:2px solid white;
+ }
+ .twitter-icon:hover{
+    border:2px solid white;
+ }
+ .instagram-icon{
+    font-size: 1.5rem;
+    display: flex;
+   height: 40px;
+   justify-content: center;
+   align-items: center;
+  }
+  .twitter-icon{
+    font-size: 1.5rem;
+    display: flex;
+   height: 40px;
+   justify-content: center;
+   align-items: center;
+  }
+  .linkedin-icon{
+    font-size: 1.5rem;
+    display: flex;
+   height: 40px;
+   justify-content: center;
+   align-items: center;
+  }
+  .youtube-icon{
+    font-size: 1.5rem;
+    display: flex;
+   height: 40px;
+   justify-content: center;
+   align-items: center;
+  }
+  .foot-panel3{
+   height:250px;
+   display: flex;
+   background-color:#222f3d ;
+   color: white;
+  justify-content: space-evenly;
+
+  }
+  ul {
+   margin-top: 20px;
+  }
+  ul p {
+   font-size: 1rem;
+   margin-top: 10px;
+  }
+  ul a {
+   display:block;
+   font-size: 0.85rem;
+   margin-top: 10px;
+  color: #dddd;
+  }
+  .foot-panel4{
+   background-color:#222f3d;
+   height: 70px;
+   border-top: 1px solid white;
+  
+  
+   border-bottom-right-radius:5px ;
+   border-bottom-left-radius:5px ;
+  }
+ 
+  
+   
+
+.about{
+   background-color: white;
+}
+.about-us{
+   background-color: rgb(1,1,42);
+   color: white;
+   padding: 56px;
+   font-size: 1rem;
+   height:50px;
+}
+.me{
+   display: flex;
+   justify-content: center;
+   width:700px;
+   background-color: #fff;
+   margin-left: 18%;
+   margin-top: 7%;
+   padding: 33px;
+  
+}
+.me img{
+   width:44%;
+}
+.contact{
+   background-color: grey;
+}
+.contact-us{
+   background-color: rgb(1,1,42);
+   color: white;
+   padding: 56px;
+   font-size: 19px;
+   height:50px;
+   margin-bottom: 5px;
+}
+.contact-me{
+   display: flex;
+   justify-content: center;
+   color: #0f1111;
+   width: 900px;
+   margin-top: 5%;
+   background-color: #fff;
+   
+}
+.contact-me img{
+   width:55%;
+}
+.contact-text{
+   padding: 22px;
+   width: 600px;
+}
+.contact-text p{
+   margin-top: 5px;
+}
+.form{
+   text-align: center;
+   margin-top: 5%;
+   color: #0f1111;
+   padding: 22px;
+}
+.form h1{
+   font-size: 2rem;
+}
+.form input{
+   width:300px;
+   height:27px;
+   margin-top: 11px;
+   padding:5px;
+   border:1px solid;
+}
+.form button{
+   width:310px;
+   height:36px;
+   background-color: rgb(2,54,54);
+   color: white;
+   font-size: 22px;
+   border:none;
+   margin-top: 22px;
+}
